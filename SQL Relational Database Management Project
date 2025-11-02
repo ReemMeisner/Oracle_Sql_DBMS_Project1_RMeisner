@@ -1,5 +1,23 @@
-# oracle_sql_assignment5_RMeisne
-SQL Database Management_DDL_DML
+
+# SQL Relational Database Management Project
+
+This project demonstrates the use of **Data Definition Language (DDL)** and **Data Manipulation Language (DML)** in Oracle SQL to design and manage a relational customer database.  
+It includes the creation of tables, constraints, data insertion, updates, and relational integrity between customers, addresses, and orders.
+
+## 🔗 View on Oracle Live SQL
+[Click here to open in Oracle Live SQL]https://livesql.oracle.com/ords/livesql/s/c4ii254ipfpoql82fvtc4q4rh
+
+## 🧱 Database Structure
+### Tables Created:
+- **Customers** – Stores customer details including name, contact info, and unique email constraint.  
+- **Addresses** – Linked to customers through a foreign key to manage multiple address records.  
+- **Orders** – Tracks customer purchases with sell and ship dates, ensuring referential integrity.
+
+## ⚙️ SQL Concepts Used
+- `PRIMARY KEY` and `FOREIGN KEY` constraints  
+- `UNIQUE` and `NOT NULL` constraints  
+- `CHECK` constraint to ensure logical date order (`sell_date <= ship_date`)  
+- `INSERT`, `UPDATE`, and `COMMIT` statements for data manipulation  
 
 CREATE TABLE Customers ( 
     customer_id NUMBER(10),

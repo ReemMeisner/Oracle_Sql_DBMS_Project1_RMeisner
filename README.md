@@ -73,7 +73,7 @@ Below is the conceptual ER Model based on normalization to 3NF:
 📎 *ER Diagram and schema were developed based on the database normalization process in Assignment 5.*  
 
 *(You can upload your ER diagram image or PDF here for reference. If it’s your “Assignment_5_Reem_Meisner.pdf,” rename it to something like `ER_Diagram.pdf` and link it like this:)*  
-[View ER Diagram (PDF)](./Assignment_5_Reem_Meisner.pdf)
+[View ER Diagram (PDF)](
 
 ---
 
